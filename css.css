@@ -1,0 +1,25 @@
+.body{
+    max-width: 80rem;
+    background-color: #111;
+    background-position: center center;
+    height: 100vh;
+    height: calc(var(--vh, 1vh)* 100);
+    overflow: hidden;
+    color: white;
+    background-image: url('b7897c78-48b1-4d94-9937-4df9b19ab0d6.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 3;
+}
+.mi{
+    font-family: "Hind Siliguri", serif;
+    font-weight: 800;
+    
+}
+.checkbtn{
+    font-size: 30px;
+    color:white;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+}
