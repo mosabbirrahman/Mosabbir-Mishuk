@@ -1,9 +1,9 @@
 .body{
     max-width: 80rem;
     background-color: #111;
-    background-position: center center;
-    height: 100vh;
-    height: calc(var(--vh, 1vh)* 100);
+    background-position: right;
+     height: 100vh;
+   
     overflow: hidden;
     color: white;
     background-image: url('b7897c78-48b1-4d94-9937-4df9b19ab0d6.jpg');
@@ -16,10 +16,7 @@
     font-weight: 800;
     
 }
-.checkbtn{
-    font-size: 30px;
-    color:white;
-    float: right;
-    line-height: 80px;
-    margin-right: 40px;
+
+.hover:hover{
+    color:rgba(0, 250, 12, 0.829);
 }
