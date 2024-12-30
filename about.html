@@ -12,6 +12,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500;600;700&family=Rubik+Vinyl&family=Ysabeau+SC:wght@1..1000&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 <body class="body mx-auto px-12">
 
@@ -19,10 +20,10 @@
             <h1 class="text-5xl text-center ">About Me</h1>
         </div>
         <section class=" header lg:flex gap-12">
-            <div>
+            <div data-aos="slide-right">
                 <img id="img" src="6bafc601-180a-434e-821b-c550ae4a9daa.jpg" alt="">
             </div>
-            <div class="pt-4 ">
+            <div class="pt-4 " data-aos="slide-left">
                 <h1 class="text-green-700 text-xl">Who am i?</h1>
                 <br>
                 <h1 class="text-3xl"> I'm Mosabbir Mishuk, a visual UX/UI Designer and Web Developer</h1>
@@ -30,7 +31,7 @@
                 <p class="text-xl">I am a freelancer based in the United Kingdom and i have been building noteworthy UX/UI designs and websites for years, which comply with the latest design trends. I help convert a vision and an idea into meaningful and useful products. Having a sharp eye for product evolution helps me prioritize tasks, iterate fast and deliver faster.</p>
                 <br>
                 <hr class="solid">
-                <div class="lg:grid grid-cols-2 gap-4 pt-4 ">
+                <div class="lg:grid grid-cols-2 gap-4 pt-4 " data-aos="zoom-out-up">
                     <h1>Name: Mosabbir Mishuk</h1>
                     <h1>Email: <span class="text-teal-300">mdmosabbirrahman07@gmail .com</span> </h1>
                     <h1>Age:18</h1>
@@ -50,7 +51,7 @@
     <section class="pt-12 pb-12">
         <h1>Services i offer to my clients</h1>
         <h1 class="text-4xl pb-2">My Services</h1>
-        <div class="lg:grid lg:grid-cols-3  sm:grid sm:grid-cols-1 gap-4   ">
+        <div class="lg:grid lg:grid-cols-3  sm:grid sm:grid-cols-1 gap-4   " data-aos="flip-up">
             <div class=" bg-slate-950 text-primary-content  ">
                 <div class="card-body">
                     <i class="fa-brands fa-css3-alt text-5xl text-emerald-700 "></i>
@@ -108,7 +109,7 @@
       <h1 class="text-xl">get started with my services</h1>
       <h1 class="text-5xl">choose a plan</h1>
       <div class="lg:grid lg:grid-cols-3 sm:w-96 lg:w-full gap-8 ">
-        <div class="bg-yellow-900 text-primary-content  mt-8">
+        <div class="bg-yellow-900 text-primary-content  mt-8" data-aos="slide-right">
           <div class="card-body text-center ">
               <i class="fa-solid fa-egg text-5xl text-emerald-700"></i>
               <br>
@@ -150,7 +151,7 @@
            
           </div>
         </div>
-        <div class="bg-emerald-900 text-primary-content  mt-8">
+        <div class="bg-emerald-900 text-primary-content  mt-8" data-aos="slide-left">
           <div class="card-body text-center ">
               <i class="fa-solid fa-star text-5xl text-emerald-700"></i>
               <br>
@@ -175,5 +176,10 @@
       </div>
 
     </section>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
 </body>
 </html>
