@@ -1,0 +1,18 @@
+.body{
+    background-color:#111; 
+    color: white;
+    max-width: auto;
+    font-family: "Playwrite IE Guides", serif;
+    font-weight: 400;
+    height: auto;
+}
+.contant-date{
+    background-color: #009e66;
+    bottom:23px ;
+    color: #fff;
+    display: inline-block;
+    left: 0px;
+    padding: 0 14px;
+    position: relative;
+    
+}
