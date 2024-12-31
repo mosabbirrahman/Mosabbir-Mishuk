@@ -18,31 +18,27 @@
 </head>
 <body class="body mx-auto">
     <section class="header flex justify-between  py-4 px-8">
-      
-    <div class="mi text-xl" data-aos="fade-up-right">
-        <h1 class="text-emerald-500">Mishuk's <br>
-       <span class="pl-8 text-orange-600">ProtFolio</span> </h1>
-    </div>
-    <div>
-        <i class="fa-solid fa-bars lg:hidden "></i>
-      
-        </div>
-
-
-        
-    <div data-aos="zoom-in-right">
-
-        <ul class="lg:flex gap-12 hidden relative">
-           <a href="./about.html"><li class="hover">About</li></a> 
-
-           
-           <a href="./blog.html"><li class="hover">Blog</li></a> 
-            <a href="./contact.html"><li class="hover">Contact</li></a>
-        </ul>
-
-        
-    </div> 
    
+    <nav class="navbar">
+        <div class="logo">
+            <div class="mi text-xl" data-aos="fade-up-right">
+                <h1 class="text-emerald-500">Mishuk's <br>
+               <span class="pl-8 text-orange-600">ProtFolio</span> </h1>
+            </div>
+        </div>
+        <ul class="nav-links">
+           
+            <li><a href="./about.html">About</a></li>
+            <li><a href="./blog.html">Services</a></li>
+            <li><a href="./contact.html">Contact</a></li>
+        </ul>
+         <div class="hamburger" id="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div> 
+    </nav>
+
    
     </section>
    
@@ -80,5 +76,6 @@
       <script>
         AOS.init();
       </script>
+      <script src="./index.js"></script>
 </body>
 </html>
