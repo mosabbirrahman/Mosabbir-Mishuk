@@ -1,20 +1,8 @@
 .body{
-    background-color:#111111e1; 
-    color: white;
-    max-width: auto;
-    font-family: "Playwrite IE Guides", serif;
-  font-weight: 400;
-    height: auto;
-}
-#img{
-    width: 900px;
-    height: 400px;
-    border-radius: 10px;
-}
-.border{
+    max-width: 80rem;
+    background-color: #111;
+   
+     
     
-    width: 40%;
-    background-color: #161616;
-    box-shadow: 0 6px 16px rgba(0, 0, 0, .2);
-    padding: 38px 42px;
+    color: white;
 }
